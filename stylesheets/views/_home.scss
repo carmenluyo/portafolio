@@ -1,0 +1,63 @@
+.container-fluid{
+	  padding: 0px;
+
+}
+.navbar-nav {
+  float: none;
+  text-align: center;
+}
+.navbar {
+	margin-bottom: 0;
+	position: fixed;
+  	width: 100%;
+}
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+}
+.banner{
+	height: 700px;
+	background-color: #bdc3c7;
+}
+h1{
+	color: gray;
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Open Sans Condensed';
+}
+h2{
+	color: gray;
+	text-align: center;
+	font-family: 'Open Sans Condensed';
+}
+.nombre{
+	color: gray;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 90px;
+}
+hr { 
+	background-color: black;
+	height: 4px; 
+
+}
+.row {
+	margin-left: 0;
+  	margin-right: 0;
+}
+.derecha{
+	  padding-right: 75px;
+	    padding-top: 20px;
+
+}
+.izquierda{
+	  padding-left: 75px;
+	    padding-top: 20px;
+
+}
+.letras{
+	font-size: 50px;
+}
+img{
+	width: 100%;
+}
