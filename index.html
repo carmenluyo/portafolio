@@ -2,13 +2,17 @@
 <head>
   <meta charset = "utf-8">
 	<title>practica</title>
+	<link rel="icon" type="image/png" href="img/name.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">	
 </head>
 <body>
 	<nav class="navbar navbar-default">
+		  <div class="nombre"><a href=""><img src="img/name.png"></a></div>	
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -22,92 +26,99 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		    	<ul class=" nav navbar-nav">
-		    		<li><a href="#">About</a></li>
-		      		<li><a href="#">Portfolio</a></li>
-		      		<li><a href="#">testimonios</a></li>
-		      		<li><a href="#">Contact</a></li>
+		    		<li><a href="#trabajo">Portafolio</a></li>
+		      		<li><a href="#sobre-mi">Perfil</a></li>
+		      		<li><a href="#footer">Contáctame</a></li>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 	</nav>
 	<div class="container-fluid">
-		<div class="banner">
-			<h1>HOLA</h1>
-			<h2>MI NOMBRE ES</h2>
-			<h2 class="nombre">CARMEN</h2>
-			<div class="row">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-3 izquierda">
-					<hr>
-				</div>
-				<div class="col-sm-2">
-					<h2> y soy</h2>
-				</div>
-				<div class="col-sm-3 derecha">
-					<hr>
-				</div>
-				<div class="col-sm-2">
-				</div>
-			</div>
-			<h2 class="letras">DESARROLLADORA WEB</h2>
+		<div class="row">
+			<div class="col-sm-12 banner"></div>
 		</div>
-		<div class="portafolio">
-			<h2>PORTAFOLIO</h2>
-			<div class="row">
-				<div class="col-sm-6 cuadros">
-					<div class="imagen ">
-						<a href="http://carmenluyo.github.io/danza-urbana/"><img src="img/danza.jpg">
-					</div></a>
-				</div>
-				<div class="col-sm-6 cuadros">
-					<div class="imagen">
-						<a href="http://carmenluyo.github.io/portafoly/">
-							<img src="img/portafolio.jpg">
+		<div  id="trabajo" class="portafolio">
+			<center><img  class="imagen-portafolio" src="img/titulo-porafolio.png">
+
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				  </ol>
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      	<a href="http://carmenluyo.github.io/portafoly/">
+							<img src="img/portafolio.png">
 						</a>
+				    </div>
+				    <div class="item">
+				      <img src="img/danza.png">
+				    </div>
+				    <div class="item">
+				      <img src="img/dashbord.png">
+				    </div>
+				    <div class="item">
+				      <img src="img/ecomunidad.png">
+				    </div>
+				  </div>
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+			</div>
+		</div>
+		<div  id="sobre-mi"class="row about">
+			<div class="col-sm-6  fotito"></div>
+			<div class="col-sm-6">
+				<center><img class="imagen-portafolio" src="img/sobre-mi.png">
+				<p class="sobre-mi">
+					 Hola soy Carmen Rosa Luyo rosales, desarrolladora web, tengo 17 años 
+					 responsable, me gusta trabajar en equipo, soy autodidacta, sincera,segura al realizar cada uno de los proyectos, me apasiona la creación,soy alegre carismática y estoy dedicada a terminar mis estudios y poder ayudar a muchas personas que me necesitan.
+				</p>
+				<img  class="imagen-habilidades" src="img/habilidades.png">
+				<div class="grid-habilidades">
+					<div class="skill">
+						<h4>HTML/CSS</h4>
+						<div class="skillbar"><div class="bar" style="width: 90%;"><span class="percent">90%</span></div></div>
+						<h4>SASS</h4>
+						<div class="skillbar"><div class="bar" style="width: 90%;"><span class="percent">90%</span></div></div>
+						<h4>BOOTSTRAP</h4>
+						<div class="skillbar"><div class="bar" style="width: 80%;"><span class="percent">80%</span></div></div>
+						<h4>JAVASCRIPT</h4>
+						<div class="skillbar"><div class="bar" style="width: 25%;"><span class="percent">25%</span></div></div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row about">
-			<P Class="sobre">SOBRE MI</P>
-			<div class="col-sm-6 foto">
-				<img src="img/compu.png">
+			<div class="row">
+				<div class="col-sm-12">
+					<center> <img class="imagen-portafolio" src="img/proces-creativo.png"></center>
+				<img class="proceso" src="img/metodos.jpg">
+				</div>
 			</div>
-			<div class="col-sm-6">
-				<p class="sobre-mi">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. 
-				</p>
-			</div>
-		</div>
-		<div class="celeste"><p class="center">Contáctanos</p>
+		<div id="footer"class="celeste">
+			<center><img  class="imagen-portafolio" src="img/contactame.png"></center>
 			<div class="contactanos">
-		 	<div id="form-div">
-	    	<form class="form" id="form1">
-			    <p class="name">
-			       <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nombre" id="name" />
-			      </p>
-			      <p class="email">
-			        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-			      </p>
-			      <p class="text">
-			        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Mensaje"></textarea>
-			      </p>
-			      <div class="submit">
-			        <input type="submit" value="ENVIAR" id="button-blue"/>
-			        <div class="ease"></div>
-			      </div>
-			    </form>
+				<img class="iconos" src="img/in.png">
+				<img class="iconos"src="img/paloma.png">
+				<img class="iconos" src="img/mensaje.png">
+				<img class="iconos" src="img/github.png">
 			</div>
-		</div>
 		</div>
 		<footer>
 			<p>© Carmen Luyo Rosales.</p>
 		</footer>
 	</div>
+</div>
 </body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </html>

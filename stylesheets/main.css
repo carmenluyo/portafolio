@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @sharset "UTF-8";
 /*========================================
 =          Twitter Bootstrap 3.2      =
@@ -5117,248 +5116,104 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; }
+
+.navbar-default {
+  background-color: rgba(248, 248, 248, 0.52);
+  border-color: transparent; }
+
 .container-fluid {
   padding: 0px; }
 
 .navbar-nav {
   float: none;
-  text-align: center; }
+  text-align: right; }
 
 .navbar {
   margin-bottom: 0;
   position: fixed;
   width: 100%;
-  z-index: 10; }
+  z-index: 30; }
 
 .navbar-nav li {
   float: none;
-  display: inline-block; }
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif; }
 
-.banner {
-  height: 700px;
-  background-color: #BDDBEF; }
+.navbar-default .navbar-nav > li > a {
+  color: #FFF; }
 
-h1 {
-  color: gray;
-  padding-top: 100px;
-  text-align: center;
-  font-family: 'Open Sans Condensed'; }
+.navbar-default .navbar-nav > li > a:hover {
+  color: #6A9E1C; }
 
-h2 {
-  color: gray;
-  text-align: center;
-  font-family: 'Open Sans Condensed'; }
+.navegacion {
+  background-color: #99D541;
+  border-color: transparent; }
 
 .nombre {
-  color: gray;
-  text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 90px; }
+  width: 123px;
+  position: absolute;
+  height: 88px;
+  top: -26%;
+  left: 1%; }
 
-hr {
-  background-color: black;
-  height: 4px; }
+.banner {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/portada-carmen.png);
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
+/*.flecha {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  bottom: 40px;
+  margin-left: 628px;
+}*/
 .row {
   margin-left: 0;
   margin-right: 0; }
-
-.derecha {
-  padding-right: 75px;
-  padding-top: 20px; }
-
-.izquierda {
-  padding-left: 75px;
-  padding-top: 20px; }
-
-.letras {
-  font-size: 50px; }
 
 img {
   width: 100%;
   height: 100%; }
 
-.foto {
-  width: 50%;
-  height: 50%; }
+.imagen-portafolio {
+  height: 232px;
+  width: 282px; }
 
 .imagen {
   height: 50%;
-  width: 100%;
-  background-color: #e0d9d9; }
+  width: 100%; }
+
+.portafolio {
+  height: 100%; }
 
 .cuadros {
   padding: 20px; }
 
 .sobre-mi {
-  padding: 85px;
-  font-size: 23px; }
-
-.center {
-  text-align: center;
-  font-size: 40px;
-  padding: 61px;
-  font-family: 'Open Sans Condensed'; }
+  font-size: 17px;
+  text-align: left; }
 
 .contactanos {
   width: 50%;
   margin: 0 auto;
-  height: 70%; }
-
-#contacto {
-  height: 640px;
-  padding: 4% 5% 7%;
-  font-size: 2em;
-  margin: 0 auto;
-  position: relative; }
-
-#contacto p {
-  color: #192951; }
-
-#feedback-page {
+  height: 70%;
   text-align: center; }
 
-#text-feedback {
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: white;
-  text-align: right; }
-
-#form-main {
-  width: 100%;
-  float: left;
-  padding-top: 30px; }
-
-#form-div {
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 35px;
-  width: 50%;
-  position: absolute; }
-
-.feedback-input {
-  opacity: 0.9;
-  color: #0493bd;
-  font-weight: 400;
-  font-size: 18px;
-  border-radius: 0;
-  line-height: 22px;
-  background-color: #fbfbfb;
-  border: 3px solid #fbfbfb;
-  padding: 13px 13px 13px 54px;
-  margin-bottom: 10px;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.feedback-input:focus {
-  background: #fff;
-  box-shadow: 0;
-  border: 3px solid #3498db;
-  color: #3498db;
-  outline: none;
-  padding: 13px 13px 13px 54px; }
-
-.focused {
-  color: #30aed6;
-  border: #30aed6 solid 3px; }
-
-/* Icons ---------------------------------- */
-#name {
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat; }
-
-#name:focus {
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 8px 5px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat; }
-
-#email {
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat; }
-
-#email:focus {
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat; }
-
-#comment {
-  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat; }
-
-textarea {
-  width: 100%;
-  height: 150px;
-  line-height: 150%; }
-
-input:hover, textarea:hover,
-input:focus, textarea:focus {
-  background-color: white; }
-
-#button-blue {
-  float: left;
-  width: 100%;
-  border: #fbfbfb solid 4px;
-  cursor: pointer;
-  background-color: transparent;
-  color: #0493bd;
-  font-size: 24px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s; }
-
-#button-blue:hover {
-  background-color: #3498db;
-  color: white; }
-
-.submit:hover {
-  color: #3498db; }
-
-.ease {
-  border-top: 3px #3c3c3c solid;
-  width: 0px;
-  height: 76px;
-  background-color: #fbfbfb;
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease;
-  -o-transition: .3s ease;
-  -ms-transition: .3s ease;
-  transition: .3s ease; }
-
-.submit:hover .ease {
-  width: 100%;
-  background-color: white; }
-
-@media only screen and (max-width: 580px) {
-  #form-div {
-    left: 3%;
-    margin-right: 3%;
-    width: 88%;
-    margin-left: 0;
-    padding-left: 3%;
-    padding-right: 3%; } }
 .sobre {
-  font-size: 40px;
   text-align: center;
-  padding: 20px;
-  font-family: 'Open Sans Condensed'; }
+  font-size: 40px;
+  padding: 61px;
+  font-family: "Atlantic"; }
 
 .celeste {
-  background-color: #E4EFF7; }
+  background-color: #FAFAFA; }
 
 footer {
   background-color: #3498db;
@@ -5366,5 +5221,86 @@ footer {
   footer p {
     text-align: center;
     margin: 0; }
+
+h2 {
+  margin-left: -354px;
+  font-size: 26px;
+  padding-top: 20px; }
+
+.about {
+  background-color: #F7F7F7;
+  height: 100%;
+  margin-left: -15px; }
+
+.fotito {
+  background: url(../img/mi-foto2.jpg) no-repeat;
+  background-size: cover;
+  height: 100%; }
+
+.carousel {
+  position: relative;
+  height: 418px;
+  width: 669px; }
+
+.carousel-indicators {
+  bottom: -4px; }
+
+.carousel-control.left {
+  background-image: none; }
+
+.carousel-control.right {
+  background-image: none; }
+
+.habilidades {
+  width: 100%;
+  float: left;
+  padding-left: 22%;
+  text-align: left; }
+
+p {
+  margin: -87px 59px 64px; }
+
+li {
+  padding: 3px;
+  font-size: 18px; }
+
+.imagen-habilidades {
+  height: 156px;
+  width: 230px;
+  margin-top: -95px; }
+
+.skill .skillbar {
+  height: 36px;
+  background: #dfdfdf;
+  margin: 0 0 10px 0;
+  text-align: left; }
+
+.skill .bar {
+  height: 35px;
+  background-color: #99D541; }
+
+.skill {
+  margin-top: -32px; }
+
+h4 {
+  margin-left: -315px; }
+
+.proceso {
+  width: 100%;
+  height: 73%; }
+
+.iconos {
+  width: 100px;
+  height: 100px; }
+
+.bar {
+  padding: 5px; }
+
+span {
+  color: white;
+  font-size: 20px; }
+
+.skillbar {
+  width: 76%; }
 
 /*# sourceMappingURL=main.css.map */
