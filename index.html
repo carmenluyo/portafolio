@@ -28,18 +28,21 @@
 		    	<ul class=" nav navbar-nav">
 		    		<li><a href="#trabajo">Portafolio</a></li>
 		      		<li><a href="#sobre-mi">Perfil</a></li>
+		      		<li><a href="#servicios">servicios</a></li>
 		      		<li><a href="#footer">Contáctame</a></li>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-12 banner"></div>
+			<div class="col-md-12 banner"></div>
 		</div>
 		<div  id="trabajo" class="portafolio">
-			<center><img  class="imagen-portafolio" src="img/titulo-porafolio.png">
-
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<img  class="imagen-portafolio" src="img/titulo-porafolio.png">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
 				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -73,50 +76,150 @@
 				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
+				</div>
+				</div>
+				<div class="col-md-2"></div>
 			</div>
 		</div>
-		<div  id="sobre-mi"class="row about">
-			<div class="col-sm-6  fotito"></div>
-			<div class="col-sm-6">
-				<center><img class="imagen-portafolio" src="img/sobre-mi.png">
-				<p class="sobre-mi">
-					 Hola soy Carmen Rosa Luyo rosales, desarrolladora web, tengo 17 años 
-					 responsable, me gusta trabajar en equipo, soy autodidacta, sincera,segura al realizar cada uno de los proyectos, me apasiona la creación,soy alegre carismática y estoy dedicada a terminar mis estudios y poder ayudar a muchas personas que me necesitan.
-				</p>
-				<img  class="imagen-habilidades" src="img/habilidades.png">
-				<div class="grid-habilidades">
-					<div class="skill">
-						<h4>HTML/CSS</h4>
-						<div class="skillbar"><div class="bar" style="width: 90%;"><span class="percent">90%</span></div></div>
-						<h4>SASS</h4>
-						<div class="skillbar"><div class="bar" style="width: 90%;"><span class="percent">90%</span></div></div>
-						<h4>BOOTSTRAP</h4>
-						<div class="skillbar"><div class="bar" style="width: 80%;"><span class="percent">80%</span></div></div>
-						<h4>JAVASCRIPT</h4>
-						<div class="skillbar"><div class="bar" style="width: 25%;"><span class="percent">25%</span></div></div>
+		<div id="sobre-mi"class="row about clarfix">
+			<div class="col-md-6 col-xs-12 fotito"></div>
+			<div class="col-md-6 col-xs-12">
+				<div class="row">
+					<div class="col-sm-12">
+					<div class="sobre-mi">
+						<img class="imagen-portafolio" src="img/sobre-mi.png">
+						<p>
+						 Hola soy Carmen Rosa Luyo Rosales, desarrolladora web, tengo 17 años 
+						 responsable, me gusta trabajar en equipo, soy autodidacta, sincera,segura al realizar cada uno de los proyectos, me apasiona la creación,soy alegre carismática y estoy dedicada a terminar mis estudios y poder ayudar a muchas personas que me necesitan.
+						</p>
+					</div>
+					</div>
+					<div class="col-sm-12 habilidades">
+						<img  class=" img-skill"src="img/habilidades.png">
+						<div class="grid-habilidades">
+							<div class="habilidades-2">
+								<ul class="col-md-6 col-xs-6">
+									<li>HTML5, CSS3 </li>
+									<li>Responsive desing</li>
+									<li>Git</li>
+									<li>GitHub</li>
+								</ul>
+								<ul class="col-md-6 col-xs-6">
+									<li>Javascript</li>
+									<li>JQuery</li>
+									<li>Sass</li>
+									<li>wordpress</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<center> <img class="imagen-portafolio" src="img/proces-creativo.png"></center>
-				<img class="proceso" src="img/metodos.jpg">
-				</div>
+		</div>
+		<section  id="servicios"class="seccion-servicios">
+			<div class="row imagen-servicios">
+					<img src="img/servicios.png">
 			</div>
-		<div id="footer"class="celeste">
-			<center><img  class="imagen-portafolio" src="img/contactame.png"></center>
+			<div class="row servicios clearfix">
+				<div class="col-sm-4">
+					<div class="img-servicios">
+						<img src="img/iconos/web.png">
+					</div>
+					<div class="caja-blog">
+						<h3>DISEÑO WEB</h3>
+						<p class=" text-blog size-p text-grey ">
+						Solo tienes menos de 5 segundos para dar una buena impresión y poder destacar de los otros sitios web de tu competencia.No importa si su empresa es grande o pyme lo importante es ser diferente de los demás.Creo sitios web limpios, equilibrados, de esa forma aseguro que tus 5 segundos cuenten.
+						</p>	
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="img-servicios">
+						<img src="img/iconos/desarrollo.png">
+					</div>
+					<div class="caja-blog">
+						<h3>MAQUETACIÓN WEB</h3>
+						<p class=" text-blog size-p text-grey ">
+							El desarrollo web es la parte esencial de un sitio web. Mis sitios web están formados por códigos bien escritos y compatibles con los estándares web. Con el uso de tecnologías como HTML5 responsable de la estructura, CSS3 encargado del estilo y jQuery responsable del comportamiento de tu sitio web.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="img-servicios">
+						<img src="img/iconos/responsive.png">
+					</div>
+					<div class="caja-blog">
+						<h3>RESPONSIVE</h3>
+						<p class=" text-blog size-p text-grey ">
+							Diseño web adaptable, es una técnica de diseño y desarrollo web que consigue adaptar el sitio web al entorno del usuario. Con el uso de HTML5 y CSS3, será optimizado para todo tipo de dispositivos. Esto mejora la experiencia del usuario y es una forma de reducir costes de creación y mantenimiento.
+						</p>	
+					</div>
+				</div>
+				</div>
+			</section>
+			<div id="footer"class="section-contactame">
+				<div class="center">
+					<img  class="imagen-portafolio" src="img/contactame.png">
+				</div>
 			<div class="contactanos">
-				<img class="iconos" src="img/in.png">
-				<img class="iconos"src="img/paloma.png">
-				<img class="iconos" src="img/mensaje.png">
-				<img class="iconos" src="img/github.png">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="form-main">
+						  <div id="form-div">
+						    <form class="form" id="form1">
+						      <p class="name">
+						        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+						      </p>
+						      <p class="email">
+						        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+						      </p>						      
+						      <p class="text">
+						        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+						      </p>
+						      <div class="submit">
+						        <input type="submit" value="SEND" id="button-blue"/>
+						        <div class="ease"></div>
+						      </div>
+						    </form>
+						  </div>
+						</div>
+						<form>
+							<!--<fieldset>
+								<legend>Contacto</legend>
+								<input type="text"id="nombre" name="nombre" required title="Ingrese su nombre">
+								<input type="email"id="email" name="email"  required title="ingrese su email">
+								<input type="text"id="asunto" name="asunto" required title="escriba su asunto">
+								<textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+								<input type="submit" name="enviar" value="Enviar">
+							</fieldset>-->
+						</form>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+				<!--<div class="row">
+					<div class="col-md-6">
+						<p>
+						Si usted tiene un proyecto que le gustaría trabajar conmigo no dude en enviarme un correo electrónico.
+						</p>
+					</div>
+					<div class="col-md-6">
+							<div class="row">
+							<div class="col-md-3"></div>
+							<div class="col-md-6">
+								<img class="iconos" src="img/in.png">
+								<img class="iconos"src="img/paloma.png">
+								<img class="iconos" src="img/mensaje.png">
+								<img class="iconos" src="img/github.png">
+							</div>
+							<div class="col-md-3"></div>
+						</div>
+					</div>
+				</div>-->
 			</div>
 		</div>
 		<footer>
 			<p>© Carmen Luyo Rosales.</p>
 		</footer>
 	</div>
-</div>
 </body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>

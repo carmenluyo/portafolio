@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @sharset "UTF-8";
 /*========================================
 =          Twitter Bootstrap 3.2      =
@@ -5116,6 +5117,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+*
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5144,7 +5146,8 @@ button.close {
   font-family: 'Open Sans', sans-serif; }
 
 .navbar-default .navbar-nav > li > a {
-  color: #FFF; }
+  color: #FFF;
+  font-family: 'Inconsolata', sans-serif; }
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #6A9E1C; }
@@ -5159,6 +5162,9 @@ button.close {
   height: 88px;
   top: -26%;
   left: 1%; }
+  .nombre img {
+    width: 100%;
+    height: 100%; }
 
 .banner {
   height: 100%;
@@ -5167,44 +5173,41 @@ button.close {
   background-attachment: fixed;
   background-size: 100% 100%; }
 
-/*.flecha {
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  bottom: 40px;
-  margin-left: 628px;
-}*/
 .row {
   margin-left: 0;
   margin-right: 0; }
 
-img {
-  width: 100%;
-  height: 100%; }
-
 .imagen-portafolio {
   height: 232px;
-  width: 282px; }
+  width: 282px;
+  margin-bottom: -66px; }
 
 .imagen {
   height: 50%;
   width: 100%; }
 
-.portafolio {
-  height: 100%; }
+#trabajo {
+  text-align: center; }
 
 .cuadros {
   padding: 20px; }
 
+#sobre-mi {
+  margin-top: 70px; }
+
 .sobre-mi {
-  font-size: 17px;
-  text-align: left; }
+  text-align: center;
+  padding: 20px; }
+  .sobre-mi p {
+    font-size: 17px;
+    padding-top: 85px; }
 
 .contactanos {
-  width: 50%;
   margin: 0 auto;
-  height: 70%;
+  height: 40%;
   text-align: center; }
+  .contactanos p {
+    margin: 0px 35px 20px; }
 
 .sobre {
   text-align: center;
@@ -5212,15 +5215,20 @@ img {
   padding: 61px;
   font-family: "Atlantic"; }
 
-.celeste {
-  background-color: #FAFAFA; }
+.section-contactame {
+  background-color: #FAFAFA;
+  height: 100%; }
 
 footer {
-  background-color: #3498db;
+  background-color: #C7C7BA;
   height: 30px; }
   footer p {
     text-align: center;
-    margin: 0; }
+    margin: 0;
+    padding: 5px; }
+
+.center {
+  text-align: center; }
 
 h2 {
   margin-left: -354px;
@@ -5237,11 +5245,6 @@ h2 {
   background-size: cover;
   height: 100%; }
 
-.carousel {
-  position: relative;
-  height: 418px;
-  width: 669px; }
-
 .carousel-indicators {
   bottom: -4px; }
 
@@ -5252,10 +5255,7 @@ h2 {
   background-image: none; }
 
 .habilidades {
-  width: 100%;
-  float: left;
-  padding-left: 22%;
-  text-align: left; }
+  text-align: center; }
 
 p {
   margin: -87px 59px 64px; }
@@ -5269,21 +5269,18 @@ li {
   width: 230px;
   margin-top: -95px; }
 
-.skill .skillbar {
-  height: 36px;
-  background: #dfdfdf;
-  margin: 0 0 10px 0;
-  text-align: left; }
-
-.skill .bar {
-  height: 35px;
-  background-color: #99D541; }
-
-.skill {
-  margin-top: -32px; }
-
 h4 {
   margin-left: -315px; }
+
+.servicios {
+  margin-top: -40px; }
+
+.imagen-servicios {
+  text-align: center; }
+  .imagen-servicios img {
+    height: 232px;
+    width: 282px;
+    margin-top: 20px; }
 
 .proceso {
   width: 100%;
@@ -5300,7 +5297,198 @@ span {
   color: white;
   font-size: 20px; }
 
-.skillbar {
-  width: 76%; }
+.skill img {
+  height: 232px;
+  width: 282px; }
+
+.img-skill {
+  width: 241px;
+  margin-top: -68px;
+  margin-bottom: -25px; }
+
+.grid-habilidades {
+  width: 100%;
+  float: left;
+  padding-left: 20%; }
+
+.habilidades-2 li {
+  padding: 3px;
+  font-size: 16px;
+  text-align: left; }
+
+/*SECCI├ôN BLOG FAROLITO*/
+.seccion-servicios h1 {
+  padding-top: 5%; }
+
+.servicios .img-servicios {
+  text-align: center;
+  position: relative;
+  top: 41px; }
+  .servicios .img-servicios img {
+    height: 100px; }
+.servicios .caja-blog {
+  text-align: center;
+  width: 100%;
+  height: 40%; }
+  .servicios .caja-blog .text-blog {
+    padding: 0% 8% 10% 10%;
+    margin: 0; }
+  .servicios .caja-blog a {
+    text-decoration: none; }
+  .servicios .caja-blog h3 {
+    padding: 21px 0;
+    text-align: center;
+    margin-top: 67px; }
+.servicios .caja-blog:hover {
+  transition: 0.5s;
+  background-color: #99D541;
+  width: 100%; }
+  .servicios .caja-blog:hover .text-blog {
+    color: white;
+    margin: 0; }
+
+html {
+  background: url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height: 100%; }
+
+#feedback-page {
+  text-align: center; }
+
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px; }
+
+#form-div {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px; }
+
+.feedback-input {
+  color: #3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid transparent; }
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px; }
+
+.focused {
+  color: #30aed6;
+  border: #30aed6 solid 3px; }
+
+/* Icons ---------------------------------- */
+#name {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  border-color: #99d541; }
+
+#name:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat; }
+
+#email {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  border-color: #99d541; }
+
+#email:focus {
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat; }
+
+#comment {
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  border-color: #99d541; }
+
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical; }
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color: white; }
+
+#button-blue {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float: left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor: pointer;
+  background-color: #99D541;
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700; }
+
+#button-blue:hover {
+  background-color: transparent;
+  color: #0493bd; }
+
+.submit:hover {
+  color: #3498db; }
+
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease; }
+
+.submit:hover .ease {
+  width: 100%;
+  background-color: white; }
+
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%; } }
 
 /*# sourceMappingURL=main.css.map */
