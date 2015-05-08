@@ -5172,7 +5172,9 @@ button.close {
   width: 100%;
   background-image: url(../img/portada-carmen.png);
   background-attachment: fixed;
-  background-size: 100% 100%; }
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
 
 .row {
   margin-left: 0;
