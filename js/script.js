@@ -23,6 +23,7 @@ function main () {
 		if (contador == 1) {
 			$('nav').animate({
 				left: '0'
+				
 			});
 			contador = 0;
 		} else {
@@ -33,5 +34,4 @@ function main () {
 		}
 	});
  
-
 }

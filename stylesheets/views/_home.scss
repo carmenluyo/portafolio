@@ -3,22 +3,22 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box; }
 
-  @font-face {
+@font-face {
     font-family: JosefinSans-Bold;
     src:url(../fonts/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: MuseoSans-300;
+    src:url(../fonts/museo/MuseoSans-300.otf);
+  }
+@font-face {
+  font-family: MuseoSans-100;
+  src:url(../fonts/museo/MuseoSans-100.otf);
 }
 .container-fluid {
   padding: 0px;
 }
-.navbar {
-  margin-bottom: 0;
-  position: fixed;
-  width: 100%;
-  z-index: 30;
-}
-.navbar-default .navbar-nav > li > a:hover{
-  color: #6A9E1C;
-}
+
 .navegacion{
   background-color: #99D541;
   border-color: transparent;
@@ -47,6 +47,11 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+    ul{
+      margin-bottom: -6px;
+      text-align: right;
+      margin-right: 30px;
+    }
 }
 .portada{
   .col-md-12{
@@ -87,6 +92,9 @@
     p{
       font-size: 17px;
       padding-top: 85px;
+      font-family: MuseoSans-300;
+      color: gray;
+      text-align: justify;
     }
 }
 .contactanos{
@@ -142,7 +150,9 @@ h2{
 
 }
 .habilidades {
+  font-family: MuseoSans-300;
   text-align: center;
+  color: gray;
 }
 .sobre-mi{
   p {
@@ -232,8 +242,12 @@ span{
   .caja-blog{
     text-align: center;
       .text-blog{
-      padding: 0% 8% 10% 10%;
-      margin: 0;
+        padding: 0% 8% 10% 10%;
+        margin: 0;
+        font-family: MuseoSans-300;
+        font-size: 18px;
+        margin-top: -17px;
+        color: rgb(126, 120, 104);
    }  
      a{
       text-decoration: none;
@@ -255,20 +269,18 @@ span{
         margin: 10px;
       }
   }
- h3 {
-  font-size: 35px;
-  font-family: JosefinSans-Bold;
-  margin-top: 0px;
-}
   .p-1{
-      margin: 40px 0px 0px;
-      font-family: JosefinSans-Bold;
       font-size: 20px;
+      color: rgb(126, 120, 104);
+      font-family: MuseoSans-300;
   }
   .p-2{
     font-family: JosefinSans-Bold;
     font-size: 27px;
-    padding: 20px;
+  }
+  p{
+    font-family: MuseoSans-300;
+  font-size: 20px;
   }
 }
 
@@ -317,7 +329,8 @@ header nav ul li a {
   color:#fff;
   display:block;
   text-decoration:none;
-  padding: 20px;
+  padding: 14px;
+  font-family: MuseoSans-100;
 }
 
 header nav ul li a span {
