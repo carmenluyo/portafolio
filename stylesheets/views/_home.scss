@@ -27,6 +27,10 @@
         visibility: visible;
       }
     }
+    a:hover{
+      color: azure;
+      text-decoration: none;
+    }
 }
 .nombre {
   width: 123px;
@@ -320,7 +324,7 @@ h4{
       margin-left: -315px;
 }
 .servicios{
-    margin-top: -40px;
+    margin-top: -65px;
     padding: 0 12%;
 }
 .imagen-servicios{
@@ -385,16 +389,16 @@ span{
     position: relative;
     top: 41px;
       img{
-          height: 100px;
+          height: 80px;
       }
   }
   .caja-blog{
     text-align: center;
       .text-blog{
-        padding: 0% 8% 10% 10%;
+        padding: 0% 0% 15% 0%;
         margin: 0;
         font-family: MuseoSans-300;
-        font-size: 18px;
+        font-size: 15px;
         margin-top: -17px;
         color: rgb(126, 120, 104);
    }  
@@ -405,6 +409,7 @@ span{
       padding: 21px 0;
       text-align: center;
       margin-top: 67px;
+      color: darkcyan;
     }
  }
 }
@@ -416,6 +421,7 @@ span{
     padding: 16px;
       img{
         margin: 10px;
+        border-radius: 50%;
       }
   }
   .p-1{
@@ -432,7 +438,6 @@ span{
   font-size: 15px;
   }
 }
-
 
 
 
@@ -578,7 +583,7 @@ header nav ul li .caret {
   }
 }
 a:hover{
-    color: #6A9E1C;
+  color: #C8CBC2;
   text-decoration: none;
 }
 

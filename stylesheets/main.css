@@ -5138,6 +5138,9 @@ button.close {
   border-color: transparent; }
   .navegacion ul .img-responsive {
     visibility: visible; }
+  .navegacion a:hover {
+    color: azure;
+    text-decoration: none; }
 
 .nombre {
   width: 123px;
@@ -5391,7 +5394,7 @@ h4 {
   margin-left: -315px; }
 
 .servicios {
-  margin-top: -40px;
+  margin-top: -65px;
   padding: 0 12%; }
 
 .imagen-servicios {
@@ -5444,14 +5447,14 @@ span {
   position: relative;
   top: 41px; }
   .servicios .img-servicios img {
-    height: 100px; }
+    height: 80px; }
 .servicios .caja-blog {
   text-align: center; }
   .servicios .caja-blog .text-blog {
-    padding: 0% 8% 10% 10%;
+    padding: 0% 0% 15% 0%;
     margin: 0;
     font-family: MuseoSans-300;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: -17px;
     color: #7e7868; }
   .servicios .caja-blog a {
@@ -5459,14 +5462,16 @@ span {
   .servicios .caja-blog h3 {
     padding: 21px 0;
     text-align: center;
-    margin-top: 67px; }
+    margin-top: 67px;
+    color: darkcyan; }
 
 #footer .row {
   text-align: center; }
 #footer .col-md-12 {
   padding: 16px; }
   #footer .col-md-12 img {
-    margin: 10px; }
+    margin: 10px;
+    border-radius: 50%; }
 #footer .p-1 {
   font-size: 16px;
   color: #7e7868;
@@ -5597,7 +5602,7 @@ header nav ul li .caret {
   header nav ul li .caret {
     float: right; } }
 a:hover {
-  color: #6A9E1C;
+  color: #C8CBC2;
   text-decoration: none; }
 
 ul .img-responsive {
