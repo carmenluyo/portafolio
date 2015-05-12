@@ -5561,12 +5561,13 @@ header nav ul li .caret {
 
   .menu_bar .bt-menu {
     display: block;
-    padding: 20px;
+    padding: 7px;
     color: #fff;
     overflow: hidden;
     font-size: 25px;
     font-weight: bold;
-    text-decoration: none; }
+    text-decoration: none;
+    margin-left: 5px; }
 
   .menu_bar span {
     float: right;
