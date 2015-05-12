@@ -5267,7 +5267,8 @@ h4 {
   margin-left: -315px; }
 
 .servicios {
-  margin-top: -40px; }
+  margin-top: -40px;
+  padding: 0 12%; }
 
 .imagen-servicios {
   text-align: center; }
