@@ -5136,6 +5136,8 @@ button.close {
 .navegacion {
   background-color: #99D541;
   border-color: transparent; }
+  .navegacion ul .img-responsive {
+    visibility: visible; }
 
 .nombre {
   width: 123px;
@@ -5494,7 +5496,7 @@ nav {
   z-index: 30; }
 
 header nav {
-  background-color: rgba(248, 248, 248, 0.52);
+  background-color: transparent;
   border-color: transparent;
   width: 100%; }
 
@@ -5597,5 +5599,8 @@ header nav ul li .caret {
 a:hover {
   color: #6A9E1C;
   text-decoration: none; }
+
+ul .img-responsive {
+  visibility: hidden; }
 
 /*# sourceMappingURL=main.css.map */
