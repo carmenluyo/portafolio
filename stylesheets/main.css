@@ -5466,7 +5466,7 @@ span {
   #footer .col-md-12 img {
     margin: 10px; }
 #footer .p-1 {
-  font-size: 20px;
+  font-size: 16px;
   color: #7e7868;
   font-family: MuseoSans-300; }
 #footer .p-2 {
@@ -5474,7 +5474,7 @@ span {
   font-size: 27px; }
 #footer p {
   font-family: MuseoSans-300;
-  font-size: 20px; }
+  font-size: 15px; }
 
 .menu_bar {
   display: none; }
