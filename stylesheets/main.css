@@ -5369,7 +5369,8 @@ footer {
   background-size: cover; }
 
 .carousel {
-  width: 85%; }
+  width: 85%;
+  margin: 0 auto; }
 
 .carousel-indicators {
   bottom: -4px; }
@@ -5627,7 +5628,5 @@ h2 {
 
   .pb55 {
     margin-bottom: 55px; } }
-.centro-carrusel {
-  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
