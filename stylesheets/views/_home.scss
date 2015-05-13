@@ -231,6 +231,11 @@ a:hover{
 }
 #trabajo{
   text-align: center;
+    h2{
+      font-family: 'Oswald', sans-serif;
+      padding-top:85px;
+      font-size: 45px;
+    }
 }
 .cuadros{
   padding: 20px;
@@ -248,6 +253,12 @@ a:hover{
       color: gray;
       text-align: justify;
     }
+    h2 {
+      font-family: 'Oswald', sans-serif;
+      padding-top: 75px;
+      margin-bottom: 40px;
+      font-size: 45px;
+    }
 }
 .contactanos{
   margin: 0 auto;
@@ -258,7 +269,7 @@ a:hover{
       }
 }
 .section-contactame{
-  background-color: #FAFAFA;
+    background-color: #EFF2F0;
 }
 
 footer{
@@ -273,11 +284,6 @@ footer{
 .center{
         text-align: center;
     }
-h2{
-    margin-left: -354px;
-    font-size: 26px;
-    padding-top: 20px;
-}
 .about{
   background-color: #F7F7F7;
   height: 100%;
@@ -289,6 +295,9 @@ h2{
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+.carousel{
+    width: 85%;
 }
 .carousel-indicators {
   bottom: -4px;
@@ -305,6 +314,11 @@ h2{
   font-family: MuseoSans-300;
   text-align: center;
   color: gray;
+    h2{
+          margin-bottom: 55px;
+          margin-top: -15px;
+
+    }
 }
 .sobre-mi{
   p {
@@ -326,14 +340,6 @@ h4{
 .servicios{
     margin-top: -65px;
     padding: 0 12%;
-}
-.imagen-servicios{
-  text-align: center;
-    img{
-      height: 232px;
-      width: 282px;
-      margin-top: 20px
-    }
 }
 .proceso{
   width: 100%;
@@ -381,7 +387,13 @@ span{
   h1{
     padding-top: 5%;
     }
+  h2{
+      text-align: center;
+      margin-bottom: 104px;
+      padding-top: 90px;
+  }
 }
+
 
 .servicios{
   .img-servicios{
@@ -409,7 +421,8 @@ span{
       padding: 21px 0;
       text-align: center;
       margin-top: 67px;
-      color: darkcyan;
+      color: #34495e;
+      font-family: MuseoSans-300;
     }
  }
 }
@@ -583,8 +596,8 @@ header nav ul li .caret {
   }
 }
 a:hover{
-  color: #C8CBC2;
   text-decoration: none;
+  color: white;
 }
 
 ul{
@@ -592,3 +605,22 @@ ul{
     visibility: hidden;
   }
 }
+
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  padding-top: 20px;
+  font-size: 45px;
+}
+    
+@media screen and (max-width:$screen-phone) { 
+  .sobre-mi h2 {
+    padding-top: 0px;
+  }
+    .pb55{
+        margin-bottom: 55px;
+    }
+  }
+  .centro-carrusel{
+    text-align: center;
+  }
