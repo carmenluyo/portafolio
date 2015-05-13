@@ -5313,6 +5313,8 @@ a:hover {
     font-family: 'Oswald', sans-serif;
     padding-top: 85px;
     font-size: 45px; }
+  #trabajo .col-md-8 {
+    margin-top: 24px; }
 
 .cuadros {
   padding: 20px; }
@@ -5351,7 +5353,8 @@ footer {
   footer p {
     text-align: center;
     margin: 0;
-    padding: 5px; }
+    padding: 5px;
+    font-family: MuseoSans-300; }
 
 .center {
   text-align: center; }
