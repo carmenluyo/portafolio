@@ -34,3 +34,13 @@ function main () {
 		}
 	});
 }
+
+
+$(document).ready(function(){
+ $(".nav-efecto a").click(function(){
+contador = 1;
+   $('nav').animate({
+     left: '-100%'
+   });
+ })
+});
