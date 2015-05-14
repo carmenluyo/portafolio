@@ -5357,7 +5357,8 @@ footer {
     font-family: MuseoSans-300; }
 
 .center {
-  text-align: center; }
+  text-align: center;
+  padding: 20px; }
 
 .about {
   background-color: #F7F7F7;
