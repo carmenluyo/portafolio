@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	$(window).scroll(function(){
 		var prueba = $(this).scrollTop();
@@ -37,10 +38,12 @@ function main () {
 
 
 $(document).ready(function(){
- $(".nav-efecto a").click(function(){
-contador = 1;
-   $('nav').animate({
-     left: '-100%'
-   });
- })
+ if ($(window).width() <= 320) {
+   $(".nav-efecto").click(function(){
+ 	contador = 1;
+     $('nav').animate({
+       left: '-100%'
+     });
+   })
+ };
 });
