@@ -5662,4 +5662,7 @@ h2 {
 .listas {
   text-align: center; }
 
+.carousel .item a img {
+  height: 50%; }
+
 /*# sourceMappingURL=main.css.map */
