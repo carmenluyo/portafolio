@@ -344,10 +344,13 @@ li{
 h4{
       margin-left: -315px;
 }
+
+
 .servicios{
     margin-top: -65px;
     padding: 0 12%;
 }
+
 .proceso{
   width: 100%;
   height: 73%;
@@ -388,6 +391,8 @@ span{
   text-align: left;
 }
   }
+
+
 /*SECCIÓN SERVICIOS*/
 
 .seccion-servicios{
@@ -431,8 +436,27 @@ span{
       color: #34495e;
       font-family: MuseoSans-300;
     }
+    p{
+      visibility: hidden;
+    }
  }
 }
+.content:hover{
+  .img-servicios{
+    visibility: hidden;
+  }
+  p{
+    visibility: visible;
+  }
+  .caja-blog{
+      margin-top: -91px;
+      transition: 0.5s all ease-in-out;
+  }
+}
+
+
+
+
 #footer{
   .row{
     text-align: center;
@@ -672,4 +696,10 @@ h2{
       }
     }
   }
+}
+
+
+
+.grid-list{
+  padding: opx;
 }

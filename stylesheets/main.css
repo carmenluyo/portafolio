@@ -5477,6 +5477,16 @@ span {
     margin-top: 67px;
     color: #34495e;
     font-family: MuseoSans-300; }
+  .servicios .caja-blog p {
+    visibility: hidden; }
+
+.content:hover .img-servicios {
+  visibility: hidden; }
+.content:hover p {
+  visibility: visible; }
+.content:hover .caja-blog {
+  margin-top: -91px;
+  transition: 0.5s all ease-in-out; }
 
 #footer .row {
   text-align: center; }
@@ -5664,5 +5674,8 @@ h2 {
 
 .carousel .item a img {
   height: 50%; }
+
+.grid-list {
+  padding: opx; }
 
 /*# sourceMappingURL=main.css.map */
