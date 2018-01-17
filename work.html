@@ -1,0 +1,125 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> Carmenluyo </title>
+    <meta charset="utf-8">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="r-overlay"></div>
+      <div class="widthWeb">
+        <div class="right">
+          <nav>
+            <ul class="reset list-unstyled menu-gral">
+            <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+            <li data-menuanchor="portafolio"><a href="#portafolio">Portafolio</a></li>
+            <li data-menuanchor="perfil"><a href="#perfil">perfil</a></li>
+            <li data-menuanchor="servicios"><a href="#servicios">Servicios</a></li>
+            <li data-menuanchor="contactame"><a href="#contactame">Contactame</a></li>
+          </ul>    
+          </nav>
+          <div class="btn-menu">
+            <span class="mobile-icon menu-mobile">
+              <i></i>
+              <i></i>
+              <i></i>
+            </span>
+          </div>
+          <nav class="menu-responsive">
+            <div class="nav-logo">
+              <a href="" class="logo fontRar">Example.com</a>
+            </div>
+            <span class="close-nav">
+              <i></i>
+              <i></i>
+            </span>
+            <ul class="reset list-unstyled menu-gral">
+            <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+            <li data-menuanchor="portafolio"><a href="#portafolio">Portafolio</a></li>
+            <li data-menuanchor="perfil"><a href="#perfil">perfil</a></li>
+            <li data-menuanchor="servicios"><a href="#servicios">Servicios</a></li>
+            <li data-menuanchor="contactame"><a href="#contactame">Contactame</a></li>
+          </ul>    
+          </nav>
+        </div>
+      </div>          
+    </header>
+  <main id="fullpage2">
+    <aside>
+      <section class="section">
+      <div class="wrapper">
+        <div class="slide">
+          <div class="content" style="background-image: url('images/bg-stregis.png')">
+            
+            <div class="viewAll">
+            </div>
+          </div><!-- @end .wrapper -->
+        </div>
+        <div class="slide">
+          <div class="content" style="background-image: url('images/bg-stregis.png')">
+            
+            <div class="viewAll">
+            </div>
+          </div><!-- @end .wrapper -->
+        </div>
+        <div class="slide">
+          <div class="content" style="background-image: url('images/bg-stregis.png')">
+            
+            <div class="viewAll">
+            </div>
+          </div><!-- @end .wrapper -->
+        </div>
+        <div class="slide">
+          <div class="content" style="background-image: url('images/bg-stregis.png')">
+            
+            <div class="viewAll">
+            </div>
+          </div><!-- @end .wrapper -->
+        </div>
+        
+      </div>
+    </section><!-- @end #section1 -->
+    </aside>
+    
+
+  </main><!-- @end #fullpage -->
+
+      
+      
+      
+            
+            
+      <script src="js/jquery-3.1.0.min.js"></script>
+      <script src="js/jquery.fullPage.js"></script>
+
+      <script src="js/main.js"></script>
+      <script>
+        $(document).ready(function() {
+          function initialization() {
+          $('#fullpage2').fullpage({
+            resize: false,
+            menu: '#menu',
+            anchors: ['work'],
+
+            navigation: false,
+            showActiveTooltip: false,
+            slidesNavigation: true,
+            controlArrows: false,
+            loopHorizontal: false,
+            responsive: 768
+          });
+        }
+        initialization();
+        });
+      </script>
+  </body>
+</html> 
